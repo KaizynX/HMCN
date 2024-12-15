@@ -1,5 +1,7 @@
 import os
 
+os.environ["DATA_FOLDER"] = "./"
+
 datasets = {
     'enron_others': (
         False,
